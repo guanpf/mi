@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/localStage.js"></script>
+    <script src="../js/login.js"></script>
+</head>
+<body>
+<!--head-->
+    <div class="container-fluid">
+        <div class="container" >
+            <div class="row" style="margin:20px 0">
+                <div class="col-lg-12">
+                    <div class="col-lg-1">
+                        <img src="../img/milogo.png" alt="">
+                    </div>
+                    <div class="col-lg-3" style="margin-left:-10px;">
+                        <p style="margin-top:-20px;"><h2>小米商城</h2></p>
+                        <p style="margin-top:-10px;color: #3c3c3c;">
+                            <small >让每个人都能享受科技的乐趣</small>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--登录-->
+<div>
+    <div class="bg">
+        <div class="lcw">
+            <div class="main-box">
+                <div class="denglufs">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><h3 ><a href="#zhanghao" id="path1" data-toggle="tab" style="color:orange">账号登录</a></h3></li>
+                        <li><span>|</span></li>
+                        <li><h3><a href="#saoma" id="path2" data-toggle="tab">扫码登录</a></h3></li>
+                       <!--// <li class="top-right"><a href="#smsaoma" id="path3" data-toggle="tab"><img src="img/smerweima.jpg" alt=""></a></li>-->
+                    </ul>
+
+                </div>
+                <!--<div class="tab-content">-->
+                    <div class="zhanghao  active"  id="zhanghao">
+                    	<form action="" class="form">
+                        <div class="input-group" >
+                            <input type="text" id="user" class="input-lg"  placeholder="邮箱/小米账号/手机号">
+                            <p id="p1"></p>
+                        </div>
+                        <div class="input-group" >
+                            <input type="text" id="password" class="input-lg"  placeholder="密码">
+                            <p id="p2"></p>
+                        </div>
+                        <div  class="input-group">
+                            
+                                <button type="submit" id="btn" class="input-lg load"  value="立即登录">立即登录</button>
+                            
+                        </div>
+                        </form>
+                        <p class="password"><span><a href="#">注册小米账号</a></span><span>|</span><span><a href="#">找回密码？</a></span> </p>
+                        <div class="other-path">
+                            <fieldset class="oth_type_tit ">
+                                <legend align="center" class="oth_type_txt">
+                                    其他登录方式
+                                </legend>
+                            </fieldset>
+                            <p class="other-path-4"><a href="#"><img src="../img/qq.jpg" alt=""><img src="../img/weibo.jpg" alt=""><img src="../img/zhifubao.jpg" alt=""><img src="../img/weixin.jpg" alt=""></a></p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="saoma" id="saoma">
+                        <div>
+                            <img src="../img/erweima.png" alt="">
+                            <p style="margin-top:20px;">使用&nbsp<span style="color:orange;">小米商城APP</span>&nbsp扫一扫</p>
+                            <p>请打开&nbsp「设置 > 小米帐号 > 右上角扫一扫」&nbsp扫码登录</p>
+                        </div>
+                    </div>
+                    <div class="smsaoma " id="smsaoma">
+                        <div>
+                            <img src="../img/erweima.png" alt="">
+                            <p style="margin-top:20px;">使用&nbsp<span style="color:orange;">小米商城APP</span>&nbsp扫一扫</p>
+                            <p>请打开&nbsp「设置 > 小米帐号 > 右上角扫一扫」&nbsp扫码登录</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--foot-->
+<div class="container-fluid">
+    <div class="foot">
+        <p><span><a href="#" style="color:#0f0f0f;">简体</a></span><span>|</span>
+            <span><a href="#" >繁体</a></span><span>|</span>
+            <span><a href="#" >English</a></span><span>|</span>
+            <span><a href="#" >常见问题</a></span>
+        </p>
+        <p><span>小米公司版权所有-京ICP备10046444-</span>
+            <a href="#"><img src="../img/ghs.png" alt=""></a>
+            <a href="#">京公网安备11010802020134号</a>
+            <span>-京ICP证110507号</span>
+        </p>
+    </div>
+</div>
+</body>
+</html>

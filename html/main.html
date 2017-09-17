@@ -1,0 +1,2145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小米官网首页</title>
+
+    <script src="../dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/localStage.js"></script>
+    <script src="../js/main.js"></script>
+
+</head>
+<style rel="stylesheet/test">
+</style>
+<body>
+<!--第一个导航栏-->
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <ul class="nav navbar-nav ">
+                        <li ><a href="#" >小米商城<span > | </span></a></li>
+                        <li><a href="#">MIUI<span> | </span></a></li>
+                        <li><a href="#">米聊<span> | </span></a></li>
+                        <li><a href="#">游戏<span> | </span></a></li>
+                        <li><a href="#">多看阅读 <span> | </span></a></li>
+                        <li><a href="#">云服务 <span> | </span></a></li>
+                        <li><a href="#">金融 <span> | </span></a></li>
+                        <li><a href="#">米币<span> | </span></a></li>
+                        <li><a href="#">小米商城手机版 <span> | </span></a></li>
+                        <li><a href="#">问题反馈<span> | </span></a></li>
+                        <li><a href="#">Select Region</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 pull-right">
+                    <ul class="nav navbar-nav kun  navbar-right">
+                        <li id='denglu'><a href="login.html">登录</a></li>
+                        <li id='myID' role="presentation" class="dropdown myID" style="width:80px; ">
+                            <a  class="dropdown-toggle" data-toggle="dropdown"  href="#" type="button" >ID：123</a>
+                            <ul class="dropdown-menu dropdown-menu-right" style="text-align: center;padding:10px 10px;">
+                                <li><a href="personal.html">个人中心</a></li>
+                                <li><a href="">评价晒单</a></li>
+                                <li><a href="">我的喜欢</a></li>
+                                <li><a href="">小米账户</a></li>
+                                <li id='reset'><a href="main.html">退出登录</a></li>
+                            </ul>
+                        </li>
+                        <li id='zhuce'><a href="indexzhuce.html">注册</a></li>
+                        <li id='mydingdan' class='mydingdan' style="width:80px; margin-left:10px; display: none;" ><a href="">我的订单</a></li>
+                        <li ><a href="">消息通知</a></li>
+                        <li role="presentation" class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown"  href="#" type="button"  >
+                                购物车
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-right" style="height:200px;width:350px;border-radius: 0;margin-top: -1px;background-color: white;overflow:auto;">
+                                <li >
+                                    <div class="container-fluid ">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <img src="../img/img7.png" alt="" class="img-thumbnail">
+                                            </div>
+                                            <div class="col-lg-6">
+                                                小米6 硅胶保护套
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <span>49x1</span>
+                                                <button type="button" class="close" style="margin-top:12px;"><span> x</span></button>
+                                            </div>
+                                        </div>
+                                        <div class="divider"></div>
+                                    </div>
+                                </li>
+                                <li >
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <img src="../img/img7.png" alt="" class="img-thumbnail">
+                                            </div>
+                                            <div class="col-lg-6">
+                                                小米6 硅胶保护套
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <span>49x1</span>
+                                                <button type="button" class="close" style="margin-top:12px;"><span> x</span></button>
+                                            </div>
+                                        </div>
+                                        <div class="divider"></div>
+                                    </div>
+                                </li>
+                                <li >
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <img src="../img/img7.png" alt="" class="img-thumbnail">
+                                            </div>
+                                            <div class="col-lg-6">
+                                                小米6 硅胶保护套
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <span>49x1</span>
+                                                <button type="button" class="close" style="margin-top:12px;"><span> x</span></button>
+                                            </div>
+                                        </div>
+                                        <div class="divider"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<!--第二个导航栏-->
+<nav class="navbar navbar-default" style="background-color: white;margin-top: 50px;margin-bottom: 0px;border: none; height:100px;">
+    <div class="container ">
+        <div class="row ">
+            <div class="col-lg-2">
+                <img src="../img/milogo.png" class="milogo" alt="">
+            </div>
+            <div class="col-lg-7 sort">
+                <ul class="nav nab-list navbar-nav ">
+                    <li class="nav-item" id="hongmi" ><a href="#hongmi1" >小米手机</a>
+                        <div class="item-children"  id="hongmi1">
+                            <div class="container ">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="" style="border-right: none;">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li ><a href="#">红米</a></li>
+                    <li><a href="#">平板 · 笔记本</a></li>
+                    <li class="nav-item" id="tv"><a href="#">电视</a>
+                        <div class="item-children-tv"  id="tv1">
+                            <div class="container ">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="" style="border-right: none;">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="box"><a href="#">盒子 · 影音</a>
+                        <div class="item-children-box"  id="box1">
+                            <div class="container ">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="" style="border-right: none;">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li id="luder"><a href="#">路由器</a>
+                        <div class="item-children-luder"  id="luder1">
+                            <div class="container ">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="" style="border-right: none;">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li id="itell"><a href="#">智能硬件</a>
+                        <div class="item-children-itell"  id="itell1">
+                            <div class="container ">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-2 borderReft">
+                                            <div class="flags">
+                                                <div class="xianhuo">
+                                                    新品
+                                                </div>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="../img/xiaomi6.png" alt="" style="border-right: none;">
+                                            </div>
+                                            <div class="title">
+                                                <p>红米Note 5A 高配版</p>
+                                                <p>899元起</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li><a href="#">服务</a></li>
+                    <li><a href="#">社区</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 sort-search">
+                <div class="input-group input-group-lg">
+                    <input type="text" class="form-control" >
+                    <div class="input-group-btn">
+                        <button class="btn btn-default">
+                            <span class="glyphicon glyphicon-search" ></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--<div class="container collapseOne" id="miXiaLaCaiDan">-->
+    <!--<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">-->
+        <!--<div class="panel-body">-->
+
+
+
+
+<!-----列表+巨幕--->
+<div class="container" >
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="../img/1.jpg" alt="...">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="../img/7.jpg" alt="...">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="../img/xmad_15034856177873_hzfGx.jpg" alt="...">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" style="left:80px;" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"  style="right:80px;" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <!----侧边栏---->
+        <div class="cebianlan">
+            <ul>
+                <li>
+                    <a href="#dianhuaka" id="shouji" > <span>手机 电话本</span><span class="glyphicon glyphicon-chevron-right pull-right cart-right"></span></a>
+                </li>
+                <li>
+                    <a href="#"> <span>笔记本 平板</span><span class="glyphicon glyphicon-chevron-right pull-right cart-right"></span></a>
+                </li>
+                <li>
+                    <a href="#"> <span>电视 盒子</span><span class="glyphicon glyphicon-chevron-right pull-right cart-right"></span></a>
+                </li>
+                <li>
+                    <a href="#"> <span>路由器 智能硬件</span><span class="glyphicon glyphicon-chevron-right pull-right cart-right"></span></a>
+                </li>
+                <li>
+                    <a href="#"> <span>移动电源 电池 插线板</span><span class="glyphicon glyphicon-chevron-right pull-right cart-right"></span></a>
+                </li>
+                <li>
+                    <a href="#"> <span>耳机 音箱</span><span class="glyphicon glyphicon-chevron-right pull-right cart-right"></span></a>
+                </li>
+                <li>
+                    <a href="#" > <span>保护套 贴膜</span><span class="glyphicon glyphicon-chevron-right pull-right cart-right"></span></a>
+                </li>
+                <li>
+                    <a href="#" > <span>线材 支架 储存卡</span><span class="glyphicon glyphicon-chevron-right pull-right cart-right"></span></a>
+                </li>
+                <li>
+                    <a href="#"> <span>箱包 服饰 鞋 眼镜</span><span class="glyphicon glyphicon-chevron-right pull-right cart-right"></span></a>
+                </li>
+                <li>
+                    <a href="#" > <span>米兔 生活周边</span><span class="glyphicon glyphicon-chevron-right pull-right cart-right"></span></a>
+                </li>
+            </ul>
+             </div>
+        <div id="dianhuaka" class="col-lg-6">
+            <div class="row">
+                <div class="col-lg-4 small6">
+                    <ul >
+                        <li>
+                            <img src="../img/small6.png" alt="">
+                        </li>
+                        <li>
+                            <span>小米6</span>
+                        </li>
+                        <li><span> &nbsp&nbsp</span></li>
+                        <li><span class="xuangou">选购</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 small6">
+                    <ul >
+                        <li>
+                            <img src="../img/small6.png" alt="">
+                        </li>
+                        <li>
+                            <span>小米6</span>
+                        </li>
+                        <li><span> &nbsp&nbsp</span></li>
+                        <li><span class="xuangou">选购</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 small6">
+                    <ul >
+                        <li>
+                            <img src="../img/small6.png" alt="">
+                        </li>
+                        <li>
+                            <span>小米6</span>
+                        </li>
+                        <li><span> &nbsp&nbsp</span></li>
+                        <li><span class="xuangou">选购</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 small6">
+                    <ul >
+                        <li>
+                            <img src="../img/small6.png" alt="">
+                        </li>
+                        <li>
+                            <span>小米6</span>
+                        </li>
+                        <li><span> &nbsp&nbsp</span></li>
+                        <li><span class="xuangou">选购</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 small6">
+                    <ul >
+                        <li>
+                            <img src="../img/small6.png" alt="">
+                        </li>
+                        <li>
+                            <span>小米6</span>
+                        </li>
+                        <li><span> &nbsp&nbsp</span></li>
+                        <li><span class="xuangou">选购</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 small6">
+                    <ul >
+                        <li>
+                            <img src="../img/small6.png" alt="">
+                        </li>
+                        <li>
+                            <span>小米6</span>
+                        </li>
+                        <li><span> &nbsp&nbsp</span></li>
+                        <li><span class="xuangou">选购</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 small6">
+                    <ul >
+                        <li>
+                            <img src="../img/small6.png" alt="">
+                        </li>
+                        <li>
+                            <span>小米6</span>
+                        </li>
+                        <li><span> &nbsp&nbsp</span></li>
+                        <li><span class="xuangou">选购</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 small6">
+                    <ul >
+                        <li>
+                            <img src="../img/small6.png" alt="">
+                        </li>
+                        <li>
+                            <span>小米6</span>
+                        </li>
+                        <li><span> &nbsp&nbsp</span></li>
+                        <li><span class="xuangou">选购</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 small6">
+                    <ul >
+                        <li>
+                            <img src="../img/small6.png" alt="">
+                        </li>
+                        <li>
+                            <span>小米6</span>
+                        </li>
+                        <li><span> &nbsp&nbsp</span></li>
+                        <li><span class="xuangou">选购</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 small6">
+                    <ul >
+                        <li>
+                            <img src="../img/small6.png" alt="">
+                        </li>
+                        <li>
+                            <span>小米6</span>
+                        </li>
+                        <li><span> &nbsp&nbsp</span></li>
+                        <li><span class="xuangou">选购</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 small6">
+                    <ul >
+                        <li>
+                            <img src="../img/small6.png" alt="">
+                        </li>
+                        <li>
+                            <span>小米6</span>
+                        </li>
+                        <li><span> &nbsp&nbsp</span></li>
+                        <li><span class="xuangou">选购</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 small6">
+                    <ul >
+                        <li>
+                            <img src="../img/small6.png" alt="">
+                        </li>
+                        <li>
+                            <span>小米6</span>
+                        </li>
+                        <li><span> &nbsp&nbsp</span></li>
+                        <li><span class="xuangou">选购</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 small6">
+                    <ul >
+                        <li>
+                            <img src="../img/small6.png" alt="">
+                        </li>
+                        <li>
+                            <span>小米6</span>
+                        </li>
+                        <li><span> &nbsp&nbsp</span></li>
+                        <li><span class="xuangou">选购</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 small6">
+                    <ul >
+                        <li>
+                            <img src="../img/small6.png" alt="">
+                        </li>
+                        <li>
+                            <span>小米6</span>
+                        </li>
+                        <li><span> &nbsp&nbsp</span></li>
+                        <li><span class="xuangou">选购</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 small6">
+                    <ul >
+                        <li>
+                            <img src="../img/small6.png" alt="">
+                        </li>
+                        <li>
+                            <span>小米6</span>
+                        </li>
+                        <li><span> &nbsp&nbsp</span></li>
+                        <li><span class="xuangou">选购</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 small6">
+                    <ul >
+                        <li>
+                            <img src="../img/small6.png" alt="">
+                        </li>
+                        <li>
+                            <span>小米6</span>
+                        </li>
+                        <li><span> &nbsp&nbsp</span></li>
+                        <li><span class="xuangou">选购</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 small6">
+                    <ul >
+                        <li>
+                            <img src="../img/small6.png" alt="">
+                        </li>
+                        <li>
+                            <span>小米6</span>
+                        </li>
+                        <li><span> &nbsp&nbsp</span></li>
+                        <li><span class="xuangou">选购</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 small6">
+                    <ul >
+                        <li>
+                            <img src="../img/small6.png" alt="">
+                        </li>
+                        <li>
+                            <span>小米6</span>
+                        </li>
+                        <li><span> &nbsp&nbsp</span></li>
+                        <li><span class="xuangou">选购</span></li>
+                    </ul>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-----米粉----->
+<div class="container" style="margin-top: 20px">
+    <div class="col-lg-12">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 shop" style="padding:0">
+                    <ul >
+                        <li><a href="#"><span class="glyphicon glyphicon-phone " ></span><span>选购手机</span></a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-gift " ></span><span>企业团购</span></a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-send " ></span><span>F码通道</span></a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-credit-card "></span><span>米粉卡&nbsp&nbsp</span></a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-refresh " ></span><span>以旧换新</span></a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-usd "></span><span>话费充值</span></a></li>
+                    </ul>
+            </div>
+            <div class="col-lg-9" >
+                    <div class="row" style="width:910px;">
+                        <div class="col-sm-8 col-md-6 col-lg-4 imgList">
+                            <img src="../img/img4.jpg" alt="" style="width:277.5px;height:167px;">
+                        </div>
+                        <div class="col-sm-8 col-md-6 col-lg-4 imgList" >
+                            <img src="../img/xmad_14993366456781_FlzhI.jpg" alt="" style="width:277.5px;height:167px;">
+                        </div>
+                        <div class="col-sm-8 col-md-6 col-lg-4 imgList" >
+                            <img src="../img/xmad_15033956821565_ubBag.jpg" alt="" style="width:277.5px;height:167px;">
+                        </div>
+                    </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+
+<!--- 明星单品--->
+<div class="container v-show">
+    <div class="col-lg-12">
+        <div class="row">
+    </div>
+
+        <div class="star">
+            <div class="single pull-left" style="margin-left:-15px;">
+                <h3>小米明星单品</h3>
+            </div>
+            <div class="btn-group pull-right gundong">
+
+                    <button class="btn btn-default left " href="#carousel-example-generic1" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-menu-left prev"></span>
+                    </button>
+                    <button class="btn btn-default right "  href="#carousel-example-generic1" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-menu-right next"></span>
+                    </button>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+
+            <div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <!--<ol class="carousel-indicators">-->
+                    <!--<li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>-->
+                    <!--<li data-target="#carousel-example-generic1" data-slide-to="1"></li>-->
+                <!--</ol>-->
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="v-content">
+                            <div class="v-content-list">
+                                <ul>
+                                    <li class="stars" style="border-top:1px solid orange;">
+                                        <img src="../img/yashua.png" alt="" >
+                                        <p><a href="#">贝医生巴氏牙刷(四色装)</a></p>
+                                        <small>德日进口刷毛，专利科学布局</small><br>
+                                        <p>39.9元</p>
+                                    </li>
+                                    <li class="stars"  style="border-top:1px solid red;">
+                                        <img src="../img/yashua.png" alt="" >
+                                        <p><a href="#">贝医生巴氏牙刷(四色装)</a></p>
+                                        <small>德日进口刷毛，专利科学布局</small><br>
+                                        <p>39.9元</p>
+                                    </li>
+                                    <li class="stars"  style="border-top:1px solid blue;">
+                                        <img src="../img/yashua.png" alt="" >
+                                        <p><a href="#">贝医生巴氏牙刷(四色装)</a></p>
+                                        <small>德日进口刷毛，专利科学布局</small>
+                                        <br>
+                                        <p>39.9元</p>
+                                    </li>
+                                    <li class="stars" style="border-top:1px solid green;">
+                                        <img src="../img/yashua.png" alt="" >
+                                        <p><a href="#">贝医生巴氏牙刷(四色装)</a></p>
+                                        <small>德日进口刷毛，专利科学布局</small><br>
+                                        <p>39.9元</p>
+                                    </li>
+                                    <li class="stars" style="border-top:1px solid #2b669a;">
+                                        <img src="../img/yashua.png" alt="">
+                                        <p><a href="#">贝医生巴氏牙刷(四色装)</a></p>
+                                        <small>德日进口刷毛，专利科学布局</small><br>
+                                        <p>39.9元</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="v-content">
+                            <div class="v-content-list">
+                                <ul>
+                                    <li class="stars" style="border-top:1px solid orange;">
+                                        <img src="../img/mx4.png" alt="">
+                                        <p><a href="#">贝医生巴氏牙刷(四色装)</a></p>
+                                        <small>德日进口刷毛，专利科学布局</small><br>
+                                        <p>39.9元</p>
+                                    </li>
+                                    <li class="stars" style="border-top:1px solid red;">
+                                        <img src="../img/mx4.png" alt="" >
+                                        <p><a href="#">贝医生巴氏牙刷(四色装)</a></p>
+                                        <small>德日进口刷毛，专利科学布局</small><br>
+                                        <p>39.9元</p>
+                                    </li>
+                                    <li class="stars" style="border-top:1px solid blue;">
+                                        <img src="../img/mx4.png" alt="">
+                                        <p><a href="#">贝医生巴氏牙刷(四色装)</a></p>
+                                        <small>德日进口刷毛，专利科学布局</small><br>
+                                        <p>39.9元</p>
+                                    </li>
+                                    <li class="stars" style="border-top:1px solid green;">
+                                        <img src="../img/mx4.png" alt="">
+                                        <p><a href="#">贝医生巴氏牙刷(四色装)</a></p>
+                                        <small>德日进口刷毛，专利科学布局</small><br>
+                                        <p>39.9元</p>
+                                    </li>
+                                    <li class="stars" style="border-top:1px solid #2b669a;">
+                                        <img src="../img/mx4.png" alt="" >
+                                        <p><a href="#">贝医生巴氏牙刷(四色装)</a></p>
+                                        <small>德日进口刷毛，专利科学布局</small><br>
+                                        <p>39.9元</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="carousel-caption">
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Controls -->
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="home">
+    <!-----家电----->
+    <div class="dianqi">
+        <div class="container" >
+            <!-- Nav tabs -->
+            <h3 style="float: left;margin-top: 40px;"> 家电</h3>
+            <ul class="nav nav-tabs pull-right" style="border-style: none;margin-top: 20px;position: relative">
+                <li class="active"><a href="#one" data-toggle="tab">电视屏幕</a></li>
+                <li><a href="#two" data-toggle="tab">笔记本电脑</a></li>
+                <li><a href="#three" data-toggle="tab">实用家居</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="one" class="col-lg-12 tab-pane active">
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/dianao.png" alt="">
+                        <p><a href="#">小米电视4A 49" 标准版</a></p>
+                        <small><a href="#">2GB+8GB 大储存／全高清HDR</a></small>
+                        <br>
+                        <p>2399元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/dianao.png" alt="">
+                        <p><a href="#">小米电视4A 49" 标准版</a></p>
+                        <small><a href="#">2GB+8GB 大储存／全高清HDR</a></small><br>
+                        <p>2399元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/dianao.png" alt="">
+                        <p><a href="#">小米电视4A 49" 标准版</a></p>
+                        <small><a href="#">2GB+8GB 大储存／全高清HDR</a></small><br>
+                        <p>2399元</p>
+                    </div>
+                    <div class="col-lg-3 home-box">
+                        <img src="../img/dianao.png" alt="">
+                        <p><a href="#">小米电视4A 49" 标准版</a></p>
+                        <small><a href="#">2GB+8GB 大储存／全高清HDR</a></small><br>
+                        <p>2399元</p>
+                    </div>
+
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/dianao.png" alt="">
+                        <p><a href="#">小米电视4A 49" 标准版</a></p>
+                        <small><a href="#">2GB+8GB 大储存／全高清HDR</a></small><br>
+                        <p>2399元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/dianao.png" alt="">
+                        <p><a href="#">小米电视4A 49" 标准版</a></p>
+                        <small><a href="#">2GB+8GB 大储存／全高清HDR</a></small><br>
+                        <p>2399元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/dianao.png" alt="">
+                        <p><a href="#">小米电视4A 49" 标准版</a></p>
+                        <small><a href="#">2GB+8GB 大储存／全高清HDR</a></small><br>
+                        <p>2399元</p>
+                    </div>
+                    <div class="col-lg-3 home-box">
+                        <img src="../img/dianao.png" alt="">
+                        <p><a href="#">小米电视4A 49" 标准版</a></p>
+                        <small><a href="#">2GB+8GB 大储存／全高清HDR</a></small><br>
+                        <p>2399元</p>
+                    </div>
+
+                </div>
+                <div id="two" class="col-lg-12  tab-pane">
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/diannao2.jpg" alt="">
+                        <p><a href="#">小米笔记本Air 13.3" i7处理器</a></p>
+                        <small><a href="#">Intel酷睿i7处理器 8GB内存+256GB</a></small><br>
+                        <p>2399元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/diannao2.jpg" alt="">
+                        <p><a href="#">小米笔记本Air 13.3" i7处理器</a></p>
+                        <small><a href="#">Intel酷睿i7处理器 8GB内存+256GB</a></small><br>
+                        <p>2399元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/diannao2.jpg" alt="">
+                        <p><a href="#">小米笔记本Air 13.3" i7处理器</a></p>
+                        <small><a href="#">Intel酷睿i7处理器 8GB内存+256GB</a></small><br>
+                        <p>2399元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/diannao2.jpg" alt="">
+                        <p><a href="#">小米笔记本Air 13.3" i7处理器</a></p>
+                        <small><a href="#">Intel酷睿i7处理器 8GB内存+256GB</a></small><br>
+                        <p>2399元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/diannao2.jpg" alt="">
+                        <p><a href="#">小米笔记本Air 13.3" i7处理器</a></p>
+                        <small><a href="#">Intel酷睿i7处理器 8GB内存+256GB</a></small><br>
+                        <p>2399元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/diannao2.jpg" alt="">
+                        <p><a href="#">小米笔记本Air 13.3" i7处理器</a></p>
+                        <small><a href="#">Intel酷睿i7处理器 8GB内存+256GB</a></small><br>
+                        <p>2399元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/diannao2.jpg" alt="">
+                        <p><a href="#">小米笔记本Air 13.3" i7处理器</a></p>
+                        <small><a href="#">Intel酷睿i7处理器 8GB内存+256GB</a></small><br>
+                        <p>2399元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/diannao2.jpg" alt="">
+                        <p><a href="#">小米笔记本Air 13.3" i7处理器</a></p>
+                        <small><a href="#">Intel酷睿i7处理器 8GB内存+256GB</a></small><br>
+                        <p>2399元</p>
+                    </div>
+
+                </div>
+                <div id="three" class="col-lg-12  tab-pane">
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/jiaju.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/jiaju.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/jiaju.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准 </a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/jiaju.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/jiaju.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/jiaju.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/jiaju.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#"> 100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/jiaju.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--- 智能---->
+    <div class="zhineng">
+        <div class="container">
+            <h3 style="float: left;margin-top: 40px;">智能</h3>
+            <ul class="nav nav-tabs pull-right" style="border-style: none;margin-top: 20px;position: relative">
+                <li class="active"><a href="#hot" data-toggle="tab">热门</a></li>
+                <li ><a href="#going" data-toggle="tab">出行</a></li>
+                <li ><a href="#health" data-toggle="tab">健康</a></li>
+                <li ><a href="#cool" data-toggle="tab">酷玩</a></li>
+                <li ><a href="#router" data-toggle="tab">路由器</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="hot" class="col-lg-12 tab-pane active">
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/jiaju.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small>
+                        <br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/jiaju.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small>
+                        <br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/jiaju.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准 </a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/jiaju.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/jiaju.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/jiaju.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/jiaju.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#"> 100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3 home-box" style="height:138px;padding:45px 30px;">
+                        <a href="#"><img src="../img/wangxian.jpg" alt="" class="pull-right" style="width:80px;height:80px;margin-top:-10px;"></a>
+                        <p><a href="#">小米千兆网线</a></p>
+                        <p>14.9元</p>
+                    </div>
+                    <div class="col-lg-3 home-box" style="height:138px;padding:45px 30px;">
+                        <a href="#"><span class="glyphicon glyphicon-hand-right" aria-hidden="true" style="font-size: 48px; color:orange; width:80px;height:80px;margin-top:-10px;float: right"></span> </a>
+                        <p><a href="#" style="font-size: 18px;">浏览更多</a></p>
+                        <small><a href="#">路由器</a></small>
+                    </div>
+                </div>
+                <div id="going" class="col-lg-12 tab-pane ">
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/going.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/going.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/going.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准 </a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/going.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/going.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/going.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/going.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#"> 100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3 home-box" style="height:138px;padding:45px 30px;">
+                        <a href="#"><img src="../img/wangxian.jpg" alt="" class="pull-right" style="width:80px;height:80px;margin-top:-10px;"></a>
+                        <p><a href="#">小米千兆网线</a></p>
+                        <p>14.9元</p>
+                    </div>
+                    <div class="col-lg-3 home-box" style="height:138px;padding:45px 30px;">
+                        <a href="#"><span class="glyphicon glyphicon-hand-right" aria-hidden="true" style="font-size: 48px; color:orange; width:80px;height:80px;margin-top:-10px;float: right"></span> </a>
+                        <p><a href="#" style="font-size: 18px;">浏览更多</a></p>
+                        <small><a href="#">路由器</a></small>
+                    </div>
+                </div>
+                <div id="health" class="col-lg-12 tab-pane ">
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/health.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/health.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/health.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准 </a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/health.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/health.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/health.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/health.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#"> 100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3 home-box" style="height:138px;padding:45px 30px;">
+                        <a href="#"><img src="../img/wangxian.jpg" alt="" class="pull-right" style="width:80px;height:80px;margin-top:-10px;"></a>
+                        <p><a href="#">小米千兆网线</a></p>
+                        <p>14.9元</p>
+                    </div>
+                    <div class="col-lg-3 home-box" style="height:138px;padding:45px 30px;">
+                        <a href="#"><span class="glyphicon glyphicon-hand-right" aria-hidden="true" style="font-size: 48px; color:orange; width:80px;height:80px;margin-top:-10px;float: right"></span> </a>
+                        <p><a href="#" style="font-size: 18px;">浏览更多</a></p>
+                        <small><a href="#">路由器</a></small>
+                    </div>
+                </div>
+                <div id="cool" class="col-lg-12 tab-pane ">
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/cool.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/cool.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/cool.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准 </a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/cool.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/cool.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/cool.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/cool.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#"> 100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3 home-box" style="height:138px;padding:45px 30px;">
+                        <a href="#"><img src="../img/wangxian.jpg" alt="" class="pull-right" style="width:80px;height:80px;margin-top:-10px;"></a>
+                        <p><a href="#">小米千兆网线</a></p>
+                        <p>14.9元</p>
+                    </div>
+                    <div class="col-lg-3 home-box" style="height:138px;padding:45px 30px;">
+                        <a href="#"><span class="glyphicon glyphicon-hand-right" aria-hidden="true" style="font-size: 48px; color:orange; width:80px;height:80px;margin-top:-10px;float: right"></span> </a>
+                        <p><a href="#" style="font-size: 18px;">浏览更多</a></p>
+                        <small><a href="#">路由器</a></small>
+                    </div>
+                </div>
+                <div id="router" class="col-lg-12 tab-pane ">
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/router.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/router.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/router.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准 </a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/router.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/router.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/router.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#">100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3  home-box" >
+                        <img src="../img/router.jpg" alt="">
+                        <p><a href="#">小米体重秤</a></p>
+                        <small><a href="#"> 100g,喝杯水都能感知的精准</a></small><br>
+                        <p>99元</p>
+                    </div>
+                    <div class="col-lg-3 home-box" style="height:138px;padding:45px 30px;">
+                        <a href="#"><img src="../img/wangxian.jpg" alt="" class="pull-right" style="width:80px;height:80px;margin-top:-10px;"></a>
+                        <p><a href="#">小米千兆网线</a></p>
+                        <p>14.9元</p>
+                    </div>
+                    <div class="col-lg-3 home-box" style="height:138px;padding:45px 30px;">
+                        <a href="#"><span class="glyphicon glyphicon-hand-right" aria-hidden="true" style="font-size: 48px; color:orange; width:80px;height:80px;margin-top:-10px;float: right"></span> </a>
+                        <p><a href="#" style="font-size: 18px;">浏览更多</a></p>
+                        <small><a href="#">路由器</a></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----热评----->
+    <div class="reping">
+        <div class="container">
+            <h3>热评产品</h3>
+            <div class="row">
+                    <div class="col-lg-3 hotcase">
+                        <img src="../img/xiaobai.jpg" alt="" >
+                        <div class="xiaobai-box">
+                            <p><a href="#">样子好可爱，特别是转来转去时很有趣。让它休眠时它就会把头转过去背对着你了，唤醒它又会自动转回来。</a></p>
+                            <br>
+                            <p><small>来自于 随风 的评价</small></p>
+                            <p><a href="#">米家小白智能摄像机</a><span><span class="sep"> | </span>379元</span></p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 hotcase">
+                        <img src="../img/xiaobai.jpg" alt="" >
+                        <div class="xiaobai-box">
+                            <p><a href="#">样子好可爱，特别是转来转去时很有趣。让它休眠时它就会把头转过去背对着你了，唤醒它又会自动转回来。</a></p>
+                            <br>
+                            <p><small>来自于 随风 的评价</small></p>
+                            <p><a href="#">米家小白智能摄像机</a><span><span class="sep"> | </span>379元</span></p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 hotcase">
+                        <img src="../img/xiaobai.jpg" alt="" >
+                        <div class="xiaobai-box">
+                            <p><a href="#">样子好可爱，特别是转来转去时很有趣。让它休眠时它就会把头转过去背对着你了，唤醒它又会自动转回来。</a></p>
+                            <br>
+                            <p><small>来自于 随风 的评价</small></p>
+                            <p><a href="#">米家小白智能摄像机</a><span><span class="sep"> | </span>379元</span></p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 hotcase">
+                        <img src="../img/xiaobai.jpg" alt="" >
+                        <div class="xiaobai-box">
+                            <p><a href="#">样子好可爱，特别是转来转去时很有趣。让它休眠时它就会把头转过去背对着你了，唤醒它又会自动转回来。</a></p>
+                            <br>
+                            <p><small>来自于 随风 的评价</small></p>
+                            <p><a href="#">米家小白智能摄像机</a><span><span class="sep"> | </span>379元</span></p>
+                        </div>
+
+                    </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-----内容----->
+   <div class="neirong">
+       <div class="container">
+           <h3>内容</h3>
+           <div class="row">
+               <div class="col-lg-12">
+                   <div class="col-lg-3 nei-box"style="border-top-color: orange">
+                       <h4 class="f1">图书</h4>
+                       <br>
+                       <div id="carousel-example-generic2" style="height:264px;" class="carousel slide" data-ride="carousel">
+                           <!-- Indicators -->
+                           <ol class="carousel-indicators spot">
+                               <li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
+                               <li data-target="#carousel-example-generic2" data-slide-to="1"></li>
+                               <li data-target="#carousel-example-generic2" data-slide-to="2"></li>
+                           </ol>
+
+                           <!-- Wrapper for slides -->
+                           <div class="carousel-inner" role="listbox">
+                               <div class="item active">
+                                   <div>
+                                       <p style="font-size: 20px;">哈利.波特与被诅咒的孩子</p>
+                                       <p class="sm-text">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！<br>
+                                           </p>
+                                       <div>
+                                           <span>29.37元</span>
+                                       </div>
+                                       <br>
+                                       <img src="../img/holi.png" alt="">
+                                   </div>
+                                   <div class="carousel-caption">
+                                   </div>
+                               </div>
+                               <div class="item ">
+                                   <div>
+                                       <p style="font-size: 20px;">好吗好的</p>
+                                       <p class="sm-text">畅销作家大冰2016年新书！讲给你<br>
+                                           听，好吗好的！</p>
+                                       <div>
+                                           <span >17.99元</span>
+                                       </div>
+                                       <br>
+                                       <img src="../img/hello.png" alt="">
+                                   </div>
+                                   <div class="carousel-caption">
+                                   </div>
+                               </div>
+                               <div class="item">
+                                   <div>
+                                       <p class="sm-text">海量好书，享受精品阅读时光<br>
+                                           漂亮的中文排版，千万读者选择！</p><br>
+                                       <div>
+                                           <span class="text-box">前往多看阅读</span>
+                                       </div>
+                                       <br>
+                                       <img src="../img/reading.jpg" alt="">
+                                   </div>
+                                   <div class="carousel-caption">
+                                   </div>
+                               </div>
+                           </div>
+
+                           <!-- Controls -->
+                           <a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev">
+                               <div class="guid1">
+                                   <span class="glyphicon glyphicon-chevron-left" style="left:-180px;top:103px;text-shadow: none; font-size: 20px;" aria-hidden="true"></span>
+                               </div>
+                               <span class="sr-only">Previous</span>
+                           </a>
+                           <a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next">
+                               <div  class="guid2">
+                                   <span class="glyphicon glyphicon-chevron-right" style="border-color: white;text-shadow: none; position: absolute; margin-bottom:40px; right:48px; top:103px;font-size: 20px;" aria-hidden="true"></span>
+                               </div>
+                               <span class="sr-only">Next</span>
+                           </a>
+
+
+
+                       </div>
+
+
+
+                   </div>
+                   <div class="col-lg-3 nei-box"style="border-top-color: red">
+                       <h4 class="f2">MIUI 主题</h4>
+                       <br>
+                       <div id="carousel-example-generic3" style="height:264px;" class="carousel slide" data-ride="carousel">
+                           <!-- Indicators -->
+                           <ol class="carousel-indicators spot">
+                               <li data-target="#carousel-example-generic3" data-slide-to="0" class="active"></li>
+                               <li data-target="#carousel-example-generic3" data-slide-to="1"></li>
+                               <li data-target="#carousel-example-generic3" data-slide-to="2"></li>
+                               <li data-target="#carousel-example-generic3" data-slide-to="3"></li>
+                           </ol>
+
+                           <!-- Wrapper for slides -->
+                           <div class="carousel-inner" role="listbox">
+                               <div class="item active">
+                                   <div>
+                                       <p style="font-size: 20px;">吴亦凡定制主题</p>
+                                       <p class="sm-text">6张锁屏动态壁纸随机，每张都给你惊喜！<br>
+                                       </p>
+                                       <div>
+                                           <span>免费</span>
+                                       </div>
+                                       <br>
+                                       <a href="#">
+                                           <img src="../img/wuyifan.jpg" alt="">
+                                       </a>
+                                   </div>
+                                   <div class="carousel-caption">
+                                   </div>
+                               </div>
+                               <div class="item ">
+                                   <div>
+                                       <p style="font-size: 20px;">夏日狂想</p>
+                                       <p class="sm-text">官方主题画风，原来你是这样的小清新！<br>
+                                           </p>
+                                       <div>
+                                           <span >免费</span>
+                                       </div>
+                                       <br>
+                                       <a href="#">
+                                       <img src="../img/xiarikuangxiang.jpg" alt="">
+                                       </a>
+                                   </div>
+                                   <div class="carousel-caption">
+                                   </div>
+                               </div>
+                               <div class="item ">
+                                   <div>
+                                       <p style="font-size: 20px;">几何</p>
+                                       <p class="sm-text">最新官方主题，带你感受极简视觉冲击<br>
+                                       </p>
+                                       <div>
+                                           <span >免费</span>
+                                       </div>
+                                       <br>
+                                       <a href="#">
+                                           <img src="../img/jihe.jpg" alt="">
+                                       </a>
+                                   </div>
+                                   <div class="carousel-caption">
+                                   </div>
+                               </div>
+                               <div class="item">
+                                   <div>
+                                       <p class="sm-text">众多个性主题、百变锁屏与自由桌面
+                                           让你的手机与众不同！<br>
+                                           </p><br>
+                                       <div>
+                                           <span class="text-box">前往MIUI主体市场</span>
+                                       </div>
+                                       <br>
+                                       <img src="../img/miuizhuti.jpg" alt="">
+                                   </div>
+                                   <div class="carousel-caption">
+                                   </div>
+                               </div>
+                           </div>
+
+                           <!-- Controls -->
+                           <a class="left carousel-control" href="#carousel-example-generic3" role="button" data-slide="prev">
+                               <div class="guid1">
+                                   <span class="glyphicon glyphicon-chevron-left" style="left:-180px;top:103px;text-shadow: none; font-size: 20px;" aria-hidden="true"></span>
+                               </div>
+                               <span class="sr-only">Previous</span>
+                           </a>
+                           <a class="right carousel-control" href="#carousel-example-generic3" role="button" data-slide="next">
+                               <div  class="guid2">
+                                   <span class="glyphicon glyphicon-chevron-right" style="border-color: white;text-shadow: none; position: absolute; margin-bottom:40px; right:48px; top:103px;font-size: 20px;" aria-hidden="true"></span>
+                               </div>
+                               <span class="sr-only">Next</span>
+                           </a>
+
+
+
+                       </div>
+
+
+
+                   </div>
+                   <div class="col-lg-3 nei-box" style="border-top-color: green">
+                       <h4 class="f3">游戏</h4>
+                       <br>
+                       <div id="carousel-example-generic4" style="height:264px;" class="carousel slide" data-ride="carousel">
+                           <!-- Indicators -->
+                           <ol class="carousel-indicators spot">
+                               <li data-target="#carousel-example-generic4" data-slide-to="0" class="active"></li>
+                               <li data-target="#carousel-example-generic4" data-slide-to="1"></li>
+                               <li data-target="#carousel-example-generic4" data-slide-to="2"></li>
+                           </ol>
+
+                           <!-- Wrapper for slides -->
+                           <div class="carousel-inner" role="listbox">
+                               <div class="item active">
+                                   <div>
+                                       <p style="font-size: 20px;">米柚手游模拟器 <br>
+                                       </p>
+                                       <p class="sm-text">在电脑上玩遍小米所有手游！<br><br>
+                                       </p>
+                                       <div>
+                                           <span>免费</span>
+                                       </div>
+                                       <br>
+                                       <img src="../img/miyou.png" alt="">
+                                   </div>
+                                   <div class="carousel-caption">
+                                   </div>
+                               </div>
+                               <div class="item ">
+                                   <div>
+                                       <p style="font-size: 20px;">剑侠世界<br>
+                                       </p>
+                                       <p class="sm-text">一生不容错过的浪漫武侠<br><br>
+                                           </p>
+                                       <div>
+                                           <span >免费</span>
+                                       </div>
+                                       <br>
+                                       <a href="#">
+                                       <img src="../img/jianxia.jpg" alt="">
+                                       </a>
+                                   </div>
+                                   <div class="carousel-caption">
+                                   </div>
+                               </div>
+                               <div class="item">
+                                   <div>
+                                       <p class="sm-text">海免费下载海量的手机游戏
+                                           天天都有现金福利赠送<br>
+                                           </p><br>
+                                       <div>
+                                           <span class="text-box">前往小米游戏商店</span>
+                                       </div>
+                                       <br>
+
+                                           <img src="../img/youxi.jpg" alt="">
+
+                                   </div>
+                                   <div class="carousel-caption">
+                                   </div>
+                               </div>
+                           </div>
+
+                           <!-- Controls -->
+                           <a class="left carousel-control" href="#carousel-example-generic4" role="button" data-slide="prev">
+                               <div class="guid1">
+                                   <span class="glyphicon glyphicon-chevron-left" style="left:-180px;top:103px;text-shadow: none; font-size: 20px;" aria-hidden="true"></span>
+                               </div>
+                               <span class="sr-only">Previous</span>
+                           </a>
+                           <a class="right carousel-control" href="#carousel-example-generic4" role="button" data-slide="next">
+                               <div  class="guid2">
+                                   <span class="glyphicon glyphicon-chevron-right" style="border-color: white;text-shadow: none; position: absolute; margin-bottom:40px; right:48px; top:103px;font-size: 20px;" aria-hidden="true"></span>
+                               </div>
+                               <span class="sr-only">Next</span>
+                           </a>
+
+
+
+                       </div>
+
+
+
+                   </div>
+                   <div class="col-lg-3 nei-box" style="border-top-color: blue">
+                       <h4  class="f4">应用</h4>
+                       <br>
+                       <div id="carousel-example-generic5" style="height:264px;" class="carousel slide" data-ride="carousel">
+                           <!-- Indicators -->
+                           <ol class="carousel-indicators spot">
+                               <li data-target="#carousel-example-generic5" data-slide-to="0" class="active"></li>
+                               <li data-target="#carousel-example-generic5" data-slide-to="1"></li>
+                               <li data-target="#carousel-example-generic5" data-slide-to="2"></li>
+                               <li data-target="#carousel-example-generic5" data-slide-to="3"></li>
+                           </ol>
+
+                           <!-- Wrapper for slides -->
+                           <div class="carousel-inner" role="listbox">
+                               <div class="item active">
+                                   <div>
+                                       <p style="font-size: 20px;">2017金米奖</p><br>
+                                       <p class="sm-text">最优秀的应用和游戏<br>
+                                       </p>
+                                       <div>
+                                           <!--<span>免费</span>-->
+                                       </div>
+                                       <br>
+                                       <a href="#">
+                                           <img src="../img/jinmi.png" alt="">
+                                       </a>
+                                   </div>
+                                   <div class="carousel-caption">
+                                   </div>
+                               </div>
+                               <div class="item ">
+                                   <div>
+                                       <p style="font-size: 20px;">Forest</p><br>
+                                       <p class="sm-text">帮助您专心于生活中每个重要时刻<br>
+                                       </p>
+                                       <div>
+                                           <span >免费</span>
+                                       </div>
+                                       <br>
+                                       <a href="#">
+                                           <img src="../img/forest.png" alt="">
+                                       </a>
+                                   </div>
+                                   <div class="carousel-caption">
+                                   </div>
+                               </div>
+                               <div class="item ">
+                                   <div>
+                                       <p style="font-size: 20px;">小米应用</p><br>
+                                       <p class="sm-text">小米出品，必须精品<br>
+                                       </p>
+                                       <div>
+                                           <span >免费</span>
+                                       </div>
+                                       <br>
+                                       <a href="#">
+                                           <img src="../img/xiaomiyingyong.png" alt="">
+                                       </a>
+                                   </div>
+                                   <div class="carousel-caption">
+                                   </div>
+                               </div>
+                               <div class="item">
+                                   <div>
+                                       <p class="sm-text">帮助小米手机和其他安卓手机用户
+                                           发现好用的安卓应用<br>
+                                       </p><br>
+                                       <div>
+                                           <span class="text-box">前往小米应用商店</span>
+                                       </div>
+                                       <br>
+                                       <img src="../img/qianwangxiaomiyingyongshangdian.jpg" alt="">
+                                   </div>
+                                   <div class="carousel-caption">
+                                   </div>
+                               </div>
+                           </div>
+
+                           <!-- Controls -->
+                           <a class="left carousel-control" href="#carousel-example-generic5" role="button" data-slide="prev">
+                               <div class="guid1">
+                                   <span class="glyphicon glyphicon-chevron-left" style="left:-180px;top:103px;text-shadow: none; font-size: 20px;" aria-hidden="true"></span>
+                               </div>
+                               <span class="sr-only">Previous</span>
+                           </a>
+                           <a class="right carousel-control" href="#carousel-example-generic5" role="button" data-slide="next">
+                               <div  class="guid2">
+                                   <span class="glyphicon glyphicon-chevron-right" style="border-color: white;text-shadow: none; position: absolute; margin-bottom:40px; right:48px; top:103px;font-size: 20px;" aria-hidden="true"></span>
+                               </div>
+                               <span class="sr-only">Next</span>
+                           </a>
+
+
+
+                       </div>
+
+
+
+                   </div>
+               </div>
+
+
+           </div>
+       </div>
+   </div>
+
+</div>
+
+<!-----客服----->
+<div class="container-fluid">
+    <div class="container">
+        <div class="shouhou">
+            <ul>
+                <li style="border-style: none;padding-left:10px;"><a href="#"><span class="glyphicon glyphicon-wrench" ></span><span>&nbsp预约维修服务</span></a></li>
+                <li><a href="#"><i class="iconfont">&#xe64d;</i><span>&nbsp7天无理由退货</span></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-wrench" ></span><span>&nbsp15天免费换货</span></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-wrench" ></span><span>&nbsp满150元包邮</span></a></li>
+                <li style="padding-right:10px;"><a href="#"><span class="glyphicon glyphicon-wrench" ></span><span>&nbsp520余家售后网点</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-9 pull-left foot-list">
+            <div class="row">
+                <div class="col-lg-2 severs">
+                    <ul>
+                        <li class="help">帮助中心</li>
+                        <li><a href="#">账户管理</a></li>
+                        <li><a href="#">用户指南</a></li>
+                        <li><a href="#">订单操作</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 severs">
+                    <ul>
+                        <li class="help">服务支持</li>
+                        <li><a href="#">售后政策</a></li>
+                        <li><a href="#">自助服务</a></li>
+                        <li><a href="#">相关下载</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 severs">
+                    <ul>
+                        <li class="help">线下门店</li>
+                        <li><a href="#">小米之家</a></li>
+                        <li><a href="#">服务网点</a></li>
+                        <li><a href="#">零售网点</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 severs">
+                    <ul>
+                        <li class="help">关于小米</li>
+                        <li><a href="#">了解小米</a></li>
+                        <li><a href="#">加入小米</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 severs">
+                    <ul>
+                        <li class="help">关注我们</li>
+                        <li><a href="#">新浪微博</a></li>
+                        <li><a href="#">小米部落</a></li>
+                        <li><a href="#">官方微信</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 severs">
+                    <ul>
+                        <li class="help">特色服务</li>
+                        <li><a href="#">F 码通道</a></li>
+                        <li><a href="#">礼物码</a></li>
+                        <li><a href="#">防伪查询</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-3">
+              <div class="kefu text-center">
+                  <span class="phoneNum">400-100-5678 </span><br>
+                  <span>周一至周日 8:00-18:00<br><span>（仅收市话费）</span></span>
+                  <br>
+                  <br>
+                  <span  class="kefu24">
+                       <a href="#"><span > 24小时在线客服</span></a>
+                  </span>
+
+              </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-----foot----->
+
+<div class="container-fluid" style="background-color:#FAFAFA;margin-top:20px;padding-top:30px; ">
+    <div class="container" style="text-align: left">
+        <div class="row">
+            <div class="col-lg-1 col-lg-offset-2">
+                <img src="../img/milogo.png" style="width:57px;height:57px;" alt="">
+            </div>
+            <div class="col-lg-8" style="width:730px;">
+                    <p class="miList1"><a href="#" >小米商城<span > | </span></a>
+                        <a href="#">MIUI<span> | </span></a>
+                        <a href="#">米聊<span> | </span></a>
+                        <a href="#">多看书城<span> | </span></a>
+                        <a href="#">小米路由器 <span> | </span></a>
+                        <a href="#">视频电话 <span> | </span></a>
+                        <a href="#">小米天猫店 <span> | </span></a>
+                        <a href="#">小米淘宝直营店<span> | </span></a>
+                        <a href="#">小米网盟 <span> | </span></a>
+                        <a href="#">小米移动<span> | </span></a>
+                        <a href="#">隐私政策<span> | </span></a>
+                        <a href="#">Select Region</a>
+                    </p>
+                    <p class="miList1"><a href="#" >©mi.com京ICP证110507号 </a><a href="">京ICP备10046444号</a><a href="#">京公网安备11010802020134号</a><a href="#">京网文[2014]0059-0009号</a></p>
+                    <p class="miList1"><a >违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</a></p>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="foot-photo">
+        <div class=" miList2">
+            <p>
+                <a href=""><img src="../img/truste.png" alt=""></a>
+                <a href=""><img src="../img/v-logo-2.png" alt=""></a>
+                <a href=""><img src="../img/v-logo-1.png" alt=""></a>
+                <a href=""><img src="../img/v-logo-3.png" alt=""></a>
+            </p>
+        </div>
+    </div>
+
+    <div class="hm">
+        <p><b>探索黑科技，为小米发烧而生！</b></p>
+    </div>
+</div>
+   <button id="ajaxbtn">按钮</button>
+</body>
+</html>

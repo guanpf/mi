@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/zhuce.css">
+    <link rel="stylesheet" href="../dist/css/bootstrap.css">
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/zhuce.js"></script>
+    <script src="../js/dropdown.js"></script>
+
+</head>
+<body>
+<div class="main">
+    <div class="content">
+      <div class="milogo">
+          <img src="../img/milogo.png" alt="">
+      </div>
+        <div class="mi-title">
+            <h2>注册小米账号</h2>
+        </div>
+        <div class="form">
+            <div class="form-group">
+                <lable class="text-size" >国家/地区</lable>
+                <div class="dropdown input-group button-lg btn-block">
+                    <input type="text" id="country" class="form-control input-lg dropdown-toggle" data-toggle="dropdown" placeholder="中国" readonly>
+                    <span class="input-group-addon caret">@</span>
+                    <!--<input type="button" class="caret">-->
+                    <ul class="dropdown-menu " style="width:350px;height:280px;overflow: auto" aria-labelledby="dropdownMenu1">
+                        <li><input type="text" style="height: 35px; width:300px;margin:8px;"></li>
+                        <li><p class="disabled " disabled="true" style="height:30px; background-color: #FCDECC;  " readonly ><span style="color:orange;line-height: 30px;">常用</span></p></li>
+                        <li role="separator" class="divider">Brazil</li>
+                        <li><a href="#">中国台湾</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">中国香港</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">India</a></li>
+                        <li role="separator" class="divider">Brazil</li>
+                        <li role="separator" class="divider">Brazil</li>
+                        <li><a href="#">中国台湾</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">中国香港</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">India</a></li>
+                        <li role="separator" class="divider">Brazil</li>
+                    </ul>
+                </div>
+
+
+                <p style="color: #1b6d85">成功注册后，国家/地区不能修改</p>
+                <div class="phone">
+                    <lable class="text-size">
+                        手机号码
+                    </lable>
+                    <div class="input-group">
+                    <span class="input-group-addon caret">+86</span>
+                    <input type="text" id="phone" class="form-control input-lg" placeholder="请输入手机号码">
+                    </div>
+                 </div>
+                <div class="submit">
+                    <div class=" form-inline">
+                    <input type="text" id="submitNum" style="height:36px;" class="input-group input-group-lg" placeholder="手机验证码">
+                    <input type="button" id="btn" value="点击获取手机验证码" onclick="settime(this)"  class=" btn btn-default" />
+                    </div>
+                </div>
+                <div>
+                    <form action="password.html">
+                        <input id="submit"  class="form-control pass input-lg" type="submit" value="立即注册">
+                    </form>
+
+                </div>
+                <div class="agreement">
+                    <lable class="control-label">
+                        <span>注册帐号即表示您同意并愿意遵守小米</span>
+                        <a href="#">用户协议</a>
+                        <span>和</span>
+                        <a href="#">隐私政策</a>
+                    </lable>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="n-foot">
+    <div class="n-font">
+        <ul class="list-inline">
+            <li>
+                <a href="#">简体</a>
+                &nbsp|
+            </li>
+            <li>
+                <a href="#">繁体</a>
+                &nbsp|
+            </li>
+            <li>
+                <a href="#">English</a>
+                &nbsp|
+            </li>
+            <li>
+                <a href="#">常见问题</a>
+            </li>
+        </ul>
+    </div>
+    <div class="copy">
+        <lable>
+            小米公司版权所有-京ICP备10046444-
+            <span><a href="#"><img src="../img/ghs.png" alt=""></a></span>
+            <a href="#">京公网安备11010802020134号</a>
+            -京ICP证110507号
+        </lable>
+    </div>
+</div>
+<script type="text/javascript">
+    var code = Math.floor(Math.random()*9000)+1000;
+    var countdown=60;
+    function settime(val) {
+        if (countdown == 0) {
+            val.removeAttribute("disabled");
+            val.value="免费获取验证码";
+            countdown = 60;
+        } else {
+            val.setAttribute("disabled", true);
+            val.value="重新发送(" + countdown + ")";
+            countdown--;
+        }
+        setTimeout(function() {
+            settime(val)
+        },1000)
+    }
+</script>
+<script>
+
+    var code = Math.round(Math.random()*9000)+1000;
+
+    $('#btn').click(function () {
+        $.ajax({
+            url:'http://smsapi.api51.cn/code/',
+            type:'GET',
+            datatype:'json',
+            data:{
+                code:code,
+                mobile:$('#phone').val()
+            },
+            headers:{
+                Authorization:'APPCODE 4998f915b9cf40e49bd28050a44d5a47'
+            }
+        }).done(function (data) {   // $("#prov").text()
+            console.log(data)
+
+        })
+    });
+    $('#submit').click(function () {
+        if(code== $('#submitNum').val()){
+            // alert($('#submitNum').val())
+        }else{
+            alert('您输入的验证码有误');
+            return false;
+        }
+    });
+
+//    $.ajax({
+//        type: "GET",
+//        url: "../Ajax/smsrandcodetest.ashx?phone=" + phone.val() + "&smsCodeRand=" + num,
+//        success: function(result) {
+//            if (result == "Y") {
+//                alert("验证码已发送至您输入的手机号！有效期5分钟");
+//                RemainTime();
+//            }
+//            else {
+//                alert("验证码获取失败！请重新获取");
+//            }
+//        },
+//        error: function() { alert("error"); }
+//    });
+    //获取6位随机验证码
+//    function random() {
+//        var num = "";
+//        for (i = 0; i < 6; i++) {
+//            num = num + Math.floor(Math.random() * 10);
+//        }
+//        return num;
+//    }
+//    //验证码有效期倒计时
+//    function RemainTime() {
+//        var iSecond;
+//        var sSecond = "", sTime = "";
+//        if (iTime >= 0) {
+//            iSecond = parseInt(iTime % 300);
+//            if (iSecond >= 0) {
+//                sSecond = iTime + "秒";
+//            }
+//            sTime = "<span style='color:darkorange;font-size:13px;'>" + sSecond + "</span>";
+//            if (iTime == 0) {
+//                clearTimeout(Account);
+//                sTime = "<span style='color:red;font-size:12px;'>验证码已过期</span>";
+//            }
+//            else {
+//                Account = setTimeout("RemainTime()", 1000);
+//            }
+//            iTime = iTime - 1;
+//        }
+//        $("#endtime").html(sTime);
+//    }
+
+
+</script>
+
+
+</body>
+</html>

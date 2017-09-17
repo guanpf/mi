@@ -1,0 +1,161 @@
+a:hover,a:focus,a:active{
+    text-decoration: none;
+}
+.lcw{
+
+    position: relative;
+    margin-left:110px;
+    display: block;
+    height:588px;
+    background:url("../img/banner.jpg") no-repeat;
+}
+.bg{
+    background-color: #16232B;
+}
+.main-box{
+    float:right;
+    margin-right:110px;
+    margin-top:35px;
+    width:400px;
+    height:524px;
+    background-color: white;
+    border:1px solid black;
+}
+.denglufs{
+    text-align: center;
+    /*padding:20px;*/
+}
+.denglufs ul{
+    margin:0 35px;
+}
+.denglufs ul li{
+    list-style: none;
+    float:left;
+    padding:20px;
+}
+.denglufs ul li a{
+    color:#666;
+}
+.denglufs ul li span{
+    font-size:24px;
+    line-height: 58px;
+    color:#b0b0b0;
+}
+.denglufs ul li h3 a:hover{
+    color:orange;
+}
+
+.input-group{
+    width:360px;
+    padding:10px auto;
+    margin:0 auto;
+    text-align: left;
+}
+
+.input-lg {
+    height: 46px;
+    /*padding: 10px 16px;*/
+    font-size: 14px;
+    line-height: 1.3333333;
+     border-radius:0;
+    margin: 10px ;
+    width:340px;
+}
+.load{
+    margin-top:15px;
+    background-color: #ef5b00;
+    color:white;
+    font-size: 18px;
+    border:none;
+}
+.password{
+    text-align: center;
+    margin-top:10px;
+}
+.password span{
+    padding:5px;
+    color:#1b6d85;
+}
+.password span a{
+    color:#1b6d85;
+    text-decoration: none;
+}
+.password span a:hover{
+    color:#ef5b00;
+}
+.oth_type_tit {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    padding-bottom: 10px\9;
+    margin:10px 30px;
+}
+.oth_type_txt {
+    font-size: 14px;
+    color: #b0b0b0;
+    /*margin: 0 auto;*/
+    margin-top:10px;
+    text-align: center;
+    /*width: 100% \9;*/
+}
+legend {
+    display: block;
+}
+.other-path{
+    margin:80px auto 20px;
+}
+.foot{
+    font-size: 12px;
+    margin:80px auto 40px;
+    text-align: center;
+}
+.foot span a{
+    text-decoration: none;
+    color:#1b6d85;
+    padding:5px;
+}
+.foot p span a:hover{
+    color:#0f0f0f;
+}
+.foot p {
+    color:#1b6d85;
+}
+.foot p a {
+    text-decoration: none;
+}
+.other-path-4{
+    margin-top:-20px;
+    text-align: center;
+}
+.other-path-4 img{
+    margin:0 15px;
+}
+.saoma{
+    display: none;
+    text-align: center;
+    margin:80px auto;
+}
+.nav-tabs{
+    border:none;
+}
+.top-right{
+    position: relative;
+    top: -126px;
+    right: -93px;
+}
+#zhanghao{
+    /*display: none;*/
+    margin-top:-60px;
+    padding-top:-50px;
+}
+#smsaoma{
+    display: none;
+}
+#saoma{
+    display: none;
+}
+.smsaoma{
+    display: none;
+    text-align: center;
+    /*margin:80px auto;*/
+}
+
